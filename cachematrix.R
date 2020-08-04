@@ -10,8 +10,8 @@ makeCacheMatrix <- function(x = matrix()) {#set the matrixes
     setInv <- function(invert) m <<- invert
     getInv <- function() m
     list(set = set, get = get,
-         setmean = setInv,
-         getmean = getMean)
+         setInv = setInv,
+         getInv = getInv)
 }
 
 
